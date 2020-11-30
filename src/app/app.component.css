@@ -1,0 +1,43 @@
+.main {
+    /* border: 1px solid red; */
+    margin: 3vh 5vh;
+    height: 94vh;
+}
+
+.panels {
+    /* border: 1px solid blue; */
+    margin-top: 50px;
+}
+
+.panel-welcome {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.panel-left {
+    /* border: 1px solid red; */
+    padding: 80px;
+}
+
+.btn-voltar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.custom-select:focus {
+    box-shadow: none !important;
+    border: none !important;
+}
+
+.btn-timer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.timer {
+    font-size: 20px;
+}
